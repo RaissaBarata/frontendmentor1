@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+
+body {
+    background: top/100% 50% no-repeat url(images/pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+main {
+    background: white;
+    max-width: 416px;
+    border-radius: 16px 16px;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 32px;
+    height: 100%;
+    width: 100%;
+}
+
+main section h1 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: hsl(223, 47%, 23%);
+}
+
+main section span {
+    color: hsl(225, 23%, 54%);
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+main .informaçao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: hsl(227, 78%, 96%);
+    border-radius: 16px;
+    padding: 20px 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+
+ main .informaçao .musica-preço {
+    display: flex;
+    align-items: center;
+ }
+
+ main .informaçao .plano {
+    display: flex;
+    flex-direction: column;
+
+ }
+
+ main .informaçao img {
+    width: 48px;
+    margin-right: 16px;
+ }
+
+ main .informaçao a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+ }
+
+ main .informaçao a:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+ }
+
+ main button {
+    cursor: pointer;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    padding: 16px 0px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0px 20px 20px rgba(78, 78, 78, 0.692);
+ }
+
+ main button:hover {
+    background: #5f51f7;
+ }
+
+ .cancelamento {
+    text-decoration: none;
+    color: hsl(226, 31%, 51%);
+    font-size: 16px;
+    margin-bottom: 32px;
+
+ }
+
+ .cancelamento:hover {
+    color: hsl(223, 47%, 23%);
+ }
+
